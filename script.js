@@ -44,3 +44,20 @@ if (trovato) {
 3 - Stampa i valori ottentui
 4 - Stabilire chi vince e stampare a video
 */
+
+const dadoGiocatore = Math.floor(Math.random() * 6) + 1;
+
+const dadoComputer = Math.floor(Math.random() * 6) + 1;
+
+
+console.log("Giocatore ha fatto:", dadoGiocatore);
+console.log("Computer ha fatto:", dadoComputer);
+
+
+if (dadoGiocatore > dadoComputer) {
+    console.log("Ha vinto il Giocatore!");
+} else if (dadoGiocatore < dadoComputer) {
+    console.log("Ha vinto il Computer!");
+} else {
+    console.log("Pareggio!");
+}
