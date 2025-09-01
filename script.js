@@ -1,5 +1,5 @@
 /* 
-Algoritmo esercizio dadi:
+Algoritmo esercizio mail:
 1 - Definisco array di stringhe, con mail inventate
 2 - Chiedo all'utente di inserire la propria mail tramite prompt
 3 - Definisco e inizializzo variabile di controllo a false (caso standard non posso entrare alla festa). Scorro la lista con un for, confrontando con ogni elemento della lista
@@ -8,7 +8,7 @@ Algoritmo esercizio dadi:
     ELSE stampa altro messaggio
 */
 
-let listaInvitati = [
+/* let listaInvitati = [
   "asdrubale.rossi@libero.com",
   "anna.pannocchia@libero.com",
   "ivo.avido@libero.com",
@@ -35,4 +35,12 @@ if (trovato) {
 } else {
   console.log("Spiaze, la tua email non è nella lista degli invitati");
   alert("Spiaze, la tua email non è nella lista degli invitati");
-}
+} */
+
+/*Algoritmo esercizio dadi
+
+1 - Genera numero casuale per il giocatore
+2 - Genera numero casuale per il computer 
+3 - Stampa i valori ottentui
+4 - Stabilire chi vince e stampare a video
+*/
